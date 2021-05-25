@@ -20,11 +20,11 @@ Placing each form was harder than I thought so I had to keep it minimalistic. I 
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/third%20step%20(background).png?raw=true)
 
 #### Step 5:
-Finally, I added color to my portrait. For the face, I used the "Fill" tag with "Random" and the blue tone in 255 *- fill(random(255), random(255), 255); -* so the color changes to different shades of blue. I did the same with the background but with yellow colour to make it contrast with the face.
+Finally, I added color to my portrait. For the face, I used the "Fill" tag with "Random" and the blue tone in 255 *- fill(random(255), random(255), 255); -* so the color changes to different shades of blue. I did the same with the background but with yellow color to make it contrast with the face.
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/four%20step%20(color).png?raw=true)
 
 ### Final result:
-Here are some examples of the results that I could obtain with the code:
+Here are some examples of the results that we can obtain with the code:
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/example1.png?raw=true) 
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/example2.png?raw=true)
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/example3.png?raw=true)
