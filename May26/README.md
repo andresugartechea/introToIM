@@ -4,7 +4,7 @@
 
 #### Step 1:
 
-![](
+![](first step (outline).png)
 
 #### Step 2:
 
