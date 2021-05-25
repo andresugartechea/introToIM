@@ -1,11 +1,9 @@
 # Intro to IM | 05/26/2021 : working with "Processing"
 
 ## Self-portrait:
-![](https://github.com/andresugartechea/introToIM/blob/main/May26/reference.jpg?raw=true)
 
 #### Step 1:
-![](https://github.com/andresugartechea/introToIM/blob/main/May26/reference.jpeg?raw=true)
-![](https://github.com/andresugartechea/introToIM/blob/main/May26/draft.jpg?raw=true)
+![](https://github.com/andresugartechea/introToIM/blob/main/May26/reference.jpg?raw=true)
 
 #### Step 2:
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/first%20step%20(outline).png?raw=true)
