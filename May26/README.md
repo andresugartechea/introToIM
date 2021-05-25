@@ -4,7 +4,7 @@
 
 #### Step 1:
 
-![](first step (outline).png)
+![](https://github.com/andresugartechea/introToIM/blob/main/May26/first%20step%20(outline).png?raw=true)
 
 #### Step 2:
 
