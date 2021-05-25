@@ -2,6 +2,8 @@
 
 ## Self-portrait:
 
+For this activity, 
+
 #### Step 1:
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/reference.jpg?raw=true)
 
