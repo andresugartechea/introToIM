@@ -4,7 +4,7 @@
 For this activity, we needed to create a self-portrait on Processing.
 
 #### Step 1:
-I decided to use one of my photos as reference. Knowing that I could only work with basic shapes, I drew a simple draft of the portrait to have an idea of how my final result would look like.
+I decided to use one of my photos as reference. Knowing that I could only work with basic shapes, I drew a simple sketch of the portrait to have an idea of how my final result would look like.
 ![](https://github.com/andresugartechea/introToIM/blob/main/May26/reference.jpg?raw=true)
 
 #### Step 2:
