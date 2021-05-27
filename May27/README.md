@@ -1,6 +1,6 @@
-# Intro to IM | 05/27/2021 : simple work of art
+# Intro to IM | 05/27/2021 : working with "Processing"
 
-## Self-portrait:
+## : Work of art using loops
 For this activity, we needed to make a simple work of art using the loops 'for()' or 'while()'
 
 #### Step 1:
