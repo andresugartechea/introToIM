@@ -1,4 +1,4 @@
-# Intro to IM | 05/27/2021 : make a simple work of art using 'for()' or 'while()'
+# Intro to IM | 05/27/2021 : simple work of art
 
 ## Self-portrait:
 For this activity, we needed to create a self-portrait on Processing.
