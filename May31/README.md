@@ -26,7 +26,7 @@
 ### Final result:
 These are some screenshots of the final result:
 
-![](start.png) 
+![](start.png|width=100) 
 ![](play1.png)
 ![](play2.png)
 ![](stop.png)
