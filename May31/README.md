@@ -30,6 +30,6 @@ These are some screenshots of the final result:
 ![](play1.png)
 ![](play2.png)
 ![](stop.png)
-<img src="start.png" width="200" height="400" />
+<img src="start.png" width="200" />
 
 
