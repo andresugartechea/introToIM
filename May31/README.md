@@ -26,6 +26,7 @@
 ### Final result:
 These are some screenshots of the final result:
 
-<img src="start.png" width="300" /> <img src="play1.png" width="300" /> <img src="play2.png" width="300" /> <img src="stop.png" width="300" />
+<img src="start.png" width="300" />  <img src="stop.png" width="300" />
+<img src="play1.png" width="300" />  <img src="play2.png" width="300" />
 
 
