@@ -1,6 +1,6 @@
 # Intro to IM | 05//231021 : working with "Processing"
 
-## : Creating a an artwork or a videogame using functions
+## : Creating an artwork or a videogame using functions
 
 
 #### Step 1:
