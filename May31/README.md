@@ -26,9 +26,9 @@
 ### Final result:
 These are some screenshots of the final result:
 
-<img src="start.png" width="40" />
-<img src="play1.png" width="40" />
-<img src="play2.png" width="40" />
-<img src="stop.png" width="40" />
+<img src="start.png" width="400" />
+<img src="play1.png" width="400" />
+<img src="play2.png" width="400" />
+<img src="stop.png" width="400" />
 
 
