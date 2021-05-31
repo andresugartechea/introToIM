@@ -4,21 +4,20 @@
 
 
 #### Step 1:
-![](sketch.jpeg)
-
+<img src="sketch.jpeg" width="300" />
 
 #### Step 2:
-![](step1.png)
+<img src="step1.png" width="300" />
 
 
 #### Step 4:
-![](step2.png)
+<img src="step2.png" width="300" />
 
 
 #### Step 5:
-![](mistake.png)
-![](start.png)
-![](stop.png)
+<img src="mistake.png" width="300" />
+<img src=start.png" width="300" />
+<img src="stop.png" width="300" />
 
 
 ### Final result:
