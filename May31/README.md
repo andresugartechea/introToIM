@@ -4,20 +4,20 @@
 
 
 #### Step 1:
-<img src="sketch.jpeg" width="300" />
+<img src="sketch.jpeg" width="500" />
 
 #### Step 2:
-<img src="step1.png" width="300" />
+<img src="step1.png" width="500" />
 
 
 #### Step 4:
-<img src="step2.png" width="300" />
+<img src="step2.png" width="500" />
 
 
 #### Step 5:
-<img src="mistake.png" width="300" />
-<img src=start.png" width="300" />
-<img src="stop.png" width="300" />
+<img src="mistake.png" width="500" />
+<img src="start.png" width="400" />
+<img src="stop.png" width="400" />
 
 
 ### Final result:
