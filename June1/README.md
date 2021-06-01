@@ -14,7 +14,7 @@
 <img src="final.png" width="800" />
 
 ### Final result:
-<img src="final1.png" width="305" /> <img src="final2.png" width="300" /> <img src="final3.png" width="300" />
+<img src="final1.png" width="303" /> <img src="final2.png" width="300" /> <img src="final3.png" width="300" />
 
 
 https://youtu.be/3ExoLyjA61U
