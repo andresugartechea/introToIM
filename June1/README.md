@@ -26,7 +26,7 @@ As my previous project, something interesting about my program is that is minima
 
 <img src="final1.png" width="303" /> <img src="final2.png" width="300" /> <img src="final3.png" width="300" />
 
-
+In this video you can watch the entire animation:
 https://youtu.be/3ExoLyjA61U
 
 
