@@ -1,6 +1,6 @@
 # Intro to IM | 06/01/2021 : working with "Processing"
 
-## create either an artwork or a game using Object Oriented Programming.
+## Create either an artwork or a game using Object Oriented Programming.
 
 
 #### Step 1:
