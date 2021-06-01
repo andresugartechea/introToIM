@@ -4,19 +4,17 @@
 
 
 #### Step 1:
-<img src="step1.png" width="500" />
+<img src="step1.png" width="700" />
 
 #### Step 2:
-<img src="step2.png" width="500" />
+<img src="step2.png" width="700" />
 
 
 #### Step 3:
-<img src="final.png" width="500" />
+<img src="final.png" width="700" />
 
 ### Final result:
-<img src="final1.png" width="300" />
-<img src="final2.png" width="300" />
-<img src="final3.png" width="300" />
+<img src="final1.png" width="300" /> <img src="final2.png" width="300" /> <img src="final3.png" width="300" />
 
 
 https://youtu.be/3ExoLyjA61U
