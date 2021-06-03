@@ -26,12 +26,15 @@ I moved the previous code to a class so I could changed the translations and dra
 
 Based on my experience, this program can cause nausea and headache after a long exposure. That's why I decided to add the option of stoping the visuals if you click the mouse. The message 'sorry :(' appears on screen when you stop it.
 
+Something that I couldn't figure out is how to delete the text after the user clicks the mouse. So I had to use a black rectangle as patch.
+
 <img src="step4.png" width="800" /> 
 
 <img src="step5.png" width="800" /> 
 
 
 ### Final result:
+Finally, I decided to put circles at the center of each square to have a better composition. This assignment helped me understand better how to uses classes and was a good introduction for working with transformations.
 
 <img src="final.png" width="800" /> 
 
