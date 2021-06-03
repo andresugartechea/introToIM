@@ -18,7 +18,7 @@ Then, I wanted to draw a circle that spins at the center of each part of the gri
 
 
 #### Step 3:
-I moved the previous code to a class so I could changed the translations and draw more squares spinning on the canvas.
+I moved the previous code to a class so I could change the translations and draw more squares spinning on the canvas.
 
 <img src="step3.png" width="800" /> 
 
