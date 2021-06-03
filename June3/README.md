@@ -34,7 +34,7 @@ Something that I couldn't figure out is how to delete the text after the user cl
 
 
 ### Final result:
-Finally, I decided to put circles at the center of each square to have a better composition. This assignment helped me understand better how to uses classes and was a good introduction for working with transformations.
+Finally, I decided to put circles at the center of each square to have a better composition. This assignment helped me understand better how to use classes and was also a good introduction for working with transformations.
 
 <img src="final.png" width="800" /> 
 
