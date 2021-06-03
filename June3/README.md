@@ -19,20 +19,20 @@
 #### Step 3:
 
 
-<img src="step3" width="800" /> 
+<img src="step3.png" width="800" /> 
 
 #### Step 4:
 
 
-<img src="step4" width="800" /> 
+<img src="step4.png" width="800" /> 
 
-<img src="step5" width="800" /> 
+<img src="step5.png" width="800" /> 
 
 
 ### Final result:
 
 
-<img src="final" width="800" /> 
+<img src="final.png" width="800" /> 
 
 You can click on this link to see what my program looks like:
 https://youtu.be/alAhpsIMT24
