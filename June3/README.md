@@ -10,7 +10,7 @@ I knew that I wanted to work with symmetry, so I started drawing a 3x3 grid on t
 <img src="step1.png" width="800" />
 
 #### Step 2:
-Then, I wanted to draw a circle that spins at the center of the each square. I realized that this idea was not interesting, because the viewer wouldn't notice that the circle is spinning. So I changed the circle for a square and I liked the result.
+Then, I wanted to draw a circle that spins at the center of each part of the grid. Nonetheless, I realized that this idea was not interesting because the viewer wouldn't notice that the circle is spinning. So I changed the circle for a square and I liked the result.
 
 <img src="step2a.png" width="800" />
 
