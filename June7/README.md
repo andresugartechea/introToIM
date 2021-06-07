@@ -18,10 +18,10 @@ The concept of my project was
 
 ### Final result:
 
-<img src="conCara.png" width="800" /> <img src="sinCara.png" width="800" /> 
+<img src="conCara.png" width="400" /> <img src="sinCara.png" width="400" /> 
 
 You can click on this link to see what my program looks like:
-https://youtu.be/alAhpsIMT24
+https://youtu.be/lTrjkfNs5UI
 
 
 
