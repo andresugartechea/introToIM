@@ -17,6 +17,9 @@
   ·After the game is won or lost, there must be a way to restart the game without closing and restarting the program.  
 
 ## Project description:
+
+[]!("concept.jpg")
+
 -----------------------------------
 ·Start with a preliminary description of what you intend for your project, followed by a journal of your progress. 
 ·Each day add the date and then describe the work you plan to do or did that day.  
@@ -28,4 +31,5 @@ As always, pictures, hand drawn sketches, pieces of code, etc. can all be used t
 ## Journal:
 
 ### Day 1 - Monday (06/08/2021)
+
 
