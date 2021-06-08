@@ -93,7 +93,10 @@ void ball(){
 
 This is what we obtain when we run the program: https://youtu.be/V2Lvg1DU9OE
 
+·Start position:
 <img src="start.png" width="400" />
+
+·After mouse is clicked:
 <img src="mouseClicked.png" width="400" />
 
 
