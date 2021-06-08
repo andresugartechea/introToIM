@@ -18,7 +18,7 @@
 
 ## Project description:
 
-[]!("concept.jpg")
+<img src="concept.jpg" width="800" />
 
 -----------------------------------
 ·Start with a preliminary description of what you intend for your project, followed by a journal of your progress. 
