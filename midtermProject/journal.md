@@ -20,8 +20,7 @@ _"Jump Rope"_ is a game where the player needs to click the mouse when the rope 
 
 <img src="concept.jpg" width="800" />
 
-
-                                                                                                                                             _(Last modified: 06/06/2021)_
+     _(Last modified: 06/06/2021)_
 
 ## Journal:
 
