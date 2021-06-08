@@ -30,7 +30,7 @@ As always, pictures, hand drawn sketches, pieces of code, etc. can all be used t
 
 ## Journal:
 
-Day 1 - Monday
+[Day 1 - Monday](day1/Monday07.md)
 Day 2 - Tuesday
 Day 3 - Wednesday
 Day 4 - Thursday
