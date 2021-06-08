@@ -1,6 +1,6 @@
 # Intro to IM | 06/07/2021 - 06/14/2021  : midterm Project
  
-·Shorcut to [_"Jump rope"_, JOURNAL](#Journal)
+·Shortcut to [_"Jump rope"_, JOURNAL](#Journal)
 
 ## Intructions: Make a game using everything you have learned so far
 
