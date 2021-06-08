@@ -89,7 +89,14 @@ void ball(){
 }
 ````
 
+## Results:
+
 This is what we obtain when we run the program: https://youtu.be/V2Lvg1DU9OE
+
+<img src="start.jpg" width="400" />
+<img src="mouseClicked.jpg" width="400" />
+
+
 
 ## Modifications:
 
