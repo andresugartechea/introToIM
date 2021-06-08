@@ -1,7 +1,7 @@
 ## Day 1 | Monday 06/07/2021 : midterm Project
 
-→ [Main page](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
-→ Go to [day 2](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day2/Tuesday08.md)
+[MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
+[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day2/Tuesday08.md) 
 
 ## Tasks:
 
@@ -112,4 +112,5 @@ I discarded previous concepts for this assignment. I originally was planning to 
 
 ·Look for functions to make the ball jump every time the mouse is clicked.
 
-→ [Next day: Day 2](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day2/Tuesday08.md)
+[MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
+[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day2/Tuesday08.md) 
