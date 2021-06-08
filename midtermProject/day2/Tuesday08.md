@@ -6,6 +6,10 @@
 
 ## Tasks:
 
+·Give a format to my journal.
+·Continue working on the code.
+·Plan the tasks for the next days.
+
 ## Progress:
 
 ## Modifications:
