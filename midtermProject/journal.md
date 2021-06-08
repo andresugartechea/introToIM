@@ -16,11 +16,11 @@
 
 ## Project description:
 
-_"Jump Rope"_ is a game where the player needs to click the mouse when the rope approaches to avoid touching it. The player scores a point every time they perform the task successfully, but the speed the speed increases with every click. The game ends when the ball touches the rope and the scoreboard is reset.
+_"Jump Rope"_ is a game where the player needs to click the mouse every time the rope approaches to avoid touching it. The player scores a point when they perform the task successfully, but the speed increases with every click. The game ends when the ball touches the rope. The scoreboard starts again from 0 so the user can play again and beat their record.
 
 <img src="concept.jpg" width="800" />
 
-     _(Last modified: 06/06/2021)_
+_(Last modified: 06/06/2021)_
 
 ## Journal:
 
