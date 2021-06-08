@@ -30,6 +30,12 @@ As always, pictures, hand drawn sketches, pieces of code, etc. can all be used t
 
 ## Journal:
 
-### Day 1 - Monday (06/08/2021)
+Day 1 - Monday
+Day 2 - Tuesday
+Day 3 - Wednesday
+Day 4 - Thursday
+Day 5 - Friday
+Day 6 - Saturday
+Day 7 - Sunday
 
 
