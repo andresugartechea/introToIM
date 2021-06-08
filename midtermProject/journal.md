@@ -1,8 +1,6 @@
 # Intro to IM | 06/07/2021 - 06/14/2021  : midterm Project
-
-·INTRUCTIONS  
-·PROJECT DESCRIPTION  
-·_"Jump the rope"_, JOURNAL | day 1  
+ 
+·See [_"Jump the rope"_, JOURNAL](##Journal)
 
 ## Intructions: Make a game using everything you have learned so far
 
@@ -30,12 +28,12 @@ As always, pictures, hand drawn sketches, pieces of code, etc. can all be used t
 
 ## Journal:
 
-[Day 1 - Monday](day1/Monday07.md)
-Day 2 - Tuesday
-Day 3 - Wednesday
-Day 4 - Thursday
-Day 5 - Friday
-Day 6 - Saturday
-Day 7 - Sunday
+[Day 1 - Monday](day1/Monday07.md)  
+Day 2 - Tuesday  
+Day 3 - Wednesday  
+Day 4 - Thursday  
+Day 5 - Friday  
+Day 6 - Saturday  
+Day 7 - Sunday  
 
 
