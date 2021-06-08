@@ -1,3 +1,6 @@
+##Midterm Project | 
+
+
 Midterm project due on June 14:
 
 Make a game using everything you have learned so far
