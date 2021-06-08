@@ -2,8 +2,8 @@
 
 ## Tasks:
 
-·Work on the concept of the videogame.
-·Watch videos with similar playability.
+·Work on the concept of the videogame.  
+·Watch videos with similar playability.  
 ·Start working on the code to have an idea of what the videogame is going to look like.
 
 ## Progress:
@@ -14,7 +14,7 @@ I want this project to be a challenge for me but at the same time I'm new at cod
 
 Before coding, I made some drawings to have a better idea of how I needed to start with this project:
 
-<img src="concept.jpg" width="800" />
+<img src="concept.jpg" width="400" />
 
 ## Code commented:
 
@@ -89,6 +89,8 @@ void ball(){
 }
 ````
 
+This is what we obtain when we run the program: https://youtu.be/V2Lvg1DU9OE
+
 ## Modifications:
 
 I discarded previous concepts for this assignment. I originally was planning to develop a game similar to _Minesweeper_, with a playability identical to _Bomberman_. I might be using this concept for a future project.
@@ -96,8 +98,3 @@ I discarded previous concepts for this assignment. I originally was planning to 
 ## Problems to solve:
 
 ·Look for functions to make the ball jump every time the mouse is clicked.
- 
-## Result:
-
-This is how my project looks today.
-https://youtu.be/V2Lvg1DU9OE
