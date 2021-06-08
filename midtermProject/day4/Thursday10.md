@@ -1,4 +1,4 @@
-## Day 4| Thursday 06/10/2021 : midterm Project
+## Day 4 | Thursday 06/10/2021 : midterm Project
 
 ## Tasks:
 
