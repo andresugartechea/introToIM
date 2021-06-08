@@ -26,10 +26,10 @@ _(Last modified: 06/06/2021)_
 
 [Day 1 - Monday](day1/Monday07.md)  
 [Day 2 - Tuesday](day2/Tuesday08.md)  
-Day 3 - Wednesday  
-Day 4 - Thursday  
-Day 5 - Friday  
-Day 6 - Saturday  
-Day 7 - Sunday  
+[Day 3 - Wednesday](day3/Wednesday09.md)  
+[Day 4 - Thursday](day4/Thursday10.md) 
+[Day 5 - Friday](day5/Friday11.md)  
+[Day 6 - Saturday](day6/Saturday12.md)  
+[Day 7 - Sunday](day7/Sunday13.md)  
 
 
