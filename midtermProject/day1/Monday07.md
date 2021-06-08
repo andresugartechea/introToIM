@@ -14,7 +14,7 @@ I want this project to be a challenge for me but at the same time I'm new at cod
 
 Before coding, I made some drawings to have a better idea of how I needed to start with this project:
 
-<img src="concept.jpg" width="400" />
+<img src="concept.jpg" width="600" />
 
 ## Code commented:
 
@@ -93,10 +93,10 @@ void ball(){
 
 This is what we obtain when we run the program: https://youtu.be/V2Lvg1DU9OE
 
-·Start position:
+·Start position:  
 <img src="start.png" width="400" />
 
-·After mouse is clicked:
+·After mouse is clicked:  
 <img src="mouseClicked.png" width="400" />
 
 
