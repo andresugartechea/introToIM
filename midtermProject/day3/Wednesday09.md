@@ -1,4 +1,4 @@
-## Day 2 | Tuesday 06/08/2021 : midterm Project
+## Day 3 | Wednesday 06/09/2021 : midterm Project
 
 ## Tasks:
 
