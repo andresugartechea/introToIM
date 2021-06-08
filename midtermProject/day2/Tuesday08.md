@@ -1,6 +1,6 @@
 ## Day 2 | Tuesday 06/08/2021 : midterm Project
   
-[← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day2/Tuesday08.md)  
+[← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day1/Monday07.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
 [next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day3/Wednesday09.md)  
 
@@ -12,6 +12,6 @@
 
 ## Problems to solve:
 
-[← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day2/Tuesday08.md)  
+[← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day1/Monday07.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
-[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day3/Wednesday09.md)  
+[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day3/Wednesday09.md) 
