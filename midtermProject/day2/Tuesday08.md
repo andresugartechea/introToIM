@@ -16,7 +16,7 @@ Today, I started giving a format to my journal so I can organize and divide my t
 
 <img src="firstTab.png" width="800" />
 
-I already figured out how to make the ball jump. I took me more than expected, so I think from now on I'm going to watch more videos as reference so I don't get blocked again.
+I already figured out how to make the ball jump. It took me more than expected, so I think from now on I'm going to watch more videos tutorials as reference so I don't get blocked again.
 
 <img src="secondTab.png" width="800" />
 
@@ -70,7 +70,11 @@ class Ball {
 
 ## Modifications:
 
+I started modifying the design of the videogame. The concept might be changing as well.
+
 ## Problems to solve:
+
+Now, I need to make the program restart every time the ball touches the rope.
 
 [← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day1/Monday07.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
