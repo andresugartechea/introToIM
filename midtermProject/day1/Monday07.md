@@ -94,7 +94,7 @@ void ball(){
 
 ## Results:
 
-This is what we obtain when we run the program: https://youtu.be/V2Lvg1DU9OE
+[This](https://youtu.be/V2Lvg1DU9OE) is what we obtain when we run the program.
 
 ·Start position:  
 <img src="start.png" width="400" />
