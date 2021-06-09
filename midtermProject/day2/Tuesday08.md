@@ -13,6 +13,17 @@
 ## Progress:
 
 
+<img src="characters.jpg" width="400" />
+
+<img src="firstTab.png" width="800" />
+
+<img src="secondTab.png" width="800" />
+
+<img src="thirdTab.png" width="800" />
+
+## Code commented: 
+
+https://youtu.be/tTa7B9S-_hw
 
 ## Modifications:
 
