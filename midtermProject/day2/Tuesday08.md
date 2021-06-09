@@ -23,7 +23,7 @@
 
 ## Code commented: 
 
-https://youtu.be/tTa7B9S-_hw
+[This](https://youtu.be/tTa7B9S-_hw) is what we obtain when we run the program.
 
 ## Modifications:
 
