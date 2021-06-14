@@ -13,7 +13,7 @@ Very commented code, especially for any confusing or tricky parts
 
 # Intro to IM | 06/07/2021 - 06/14/2021  : midterm Project
  
-·Shortcut to [_"Jump rope"_, JOURNAL](journal.md)
+·[JOURNAL](journal.md)
 
 ## Intructions: Make a game using everything you have learned so far
 
@@ -34,6 +34,10 @@ _"Jump Rope"_ is a game where the player needs to click the mouse every time the
 <img src="concept.jpg" width="800" />
 
 _(Last modified: 06/06/2021)_
+
+## Gameplay:
+
+[video](https://youtu.be/yphFfRWPMsw)
 
 ## Journal:
 
