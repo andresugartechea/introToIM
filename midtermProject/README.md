@@ -1,12 +1,10 @@
-
-Clear instructions for playing the game
-Screen shots of different game stages
-Description of major problems and modifications you made to overcome them
-
-
-
 # Intro to IM | Midterm Project: "UNBREAKABLE", videogame
- 
+
+## Project description:
+
+_"UNBREAKABLE"_ is a videogame inspired by [_"Flappy Bird"_](https://www.youtube.com/watch?v=fQoJZuBwrkU) that started as a jump rope game. It doesn't have a storyline, but its concept is based on Jean Michel Basquiat's artworks. The background of this project is a clear reference of this artist.
+
+The playability is simple, but the game is not that easy. The purpose of this game is to entertain the users by making them want to score higher and higher. This playability proved to be attractive with the huge success of _"Flappy Bird"_ before being removed from the app store. Personally, it was one of my favorite games and that's why I decided to recreate it with my own style. 
 
 ## Intructions: 
 
@@ -15,7 +13,7 @@ Description of major problems and modifications you made to overcome them
 
 **2. Keep clicking to fly** → Your character will be placed in the middle of the screen. Keep clicking the mouse to stay in the middle of the screen until the first pair of fists arrive.
 
-<img src="stage1a.png" width="800" />
+<img src="stage2a.png" width="800" />
 
 **3. Don't go out of the screen** → If you fall or fly too high, you will lose.
 
@@ -28,13 +26,9 @@ Description of major problems and modifications you made to overcome them
 <img src="stage3.png" width="800" />
 
 
-## Project description:
-
-_"Jump Rope"_ is a game where the player needs to click the mouse every time the rope approaches to avoid touching it. The player scores a point when they perform the task successfully, but the speed increases with every click. The game ends when the ball touches the rope. The scoreboard starts again from 0 so the user can play again and beat their record.
-
 ## Code commented:
 
-This code can also be found in the repository. Click [here](#Gameplay) to skip this section.
+This code can also be found in the repository. Click [here](#Problems-and-modifications) to skip this section.
 
 ````
 /* 
@@ -281,9 +275,14 @@ void finalScore() {
   text (" Final Score:  " + score, width/2-125, 185);
 }
 ````
+## Problems and modifications
+
+As I mentioned, this project started as a jump rope videogame. Nonetheless, the concept was pretty similar: with the original version, the player needed to click the mouse every time the rope approaches to avoid touching it. The rope was supposed to increase of speed every time the player scored a point, and the game ended when the ball touched the rope. Nonetheless, the collision detection for this idead turned out to be harder than I thought.
+
+<img src="concept.jpg" width="400" />
+
 
 ## Gameplay:
-
 
 [Here](https://youtu.be/yphFfRWPMsw), you can find a gameplay.
 
