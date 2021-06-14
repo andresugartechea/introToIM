@@ -3,17 +3,9 @@
 [← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day6/Saturday12.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
 
-## Tasks:
+Today I finished my project. I wrote the instructions, finished the code, added sound and the score.
+[The documentation](https://github.com/andresugartechea/introToIM/edit/main/midtermProject/README.md) summarizes what I accomplished this last day.
 
-## Progress:
-
-## Code commented:
-
-## Results:
-
-## Modifications:
-
-## Problems to solve:
 
 [← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day6/Saturday12.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
