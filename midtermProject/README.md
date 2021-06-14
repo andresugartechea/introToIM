@@ -282,7 +282,7 @@ As I mentioned, this project started as a jump rope videogame. Nonetheless, the 
 
    <img src="concept.jpg" width="500" />
    
-Nonetheless, the collision detection for this idea turned out to be harder than I thought. That's why I had to research how [collision detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) works, specially for [rotated objects]. 
+Nonetheless, the collision detection for this idea turned out to be harder than I thought. That's why I had to research how [collision detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) works, specially for rotated objects. 
 
 The lack of time and my inexperience with programming made me change my concept and it became a new version of _"Flappy Bird"_, certainly because I was using 
 [The Coding Train](https://www.youtube.com/watch?v=cXgA1d_E-jY&t=1026s&ab_channel=TheCodingTrainTheCodingTrainVerified)'s tutorial as reference for the jump rope game. 
