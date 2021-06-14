@@ -18,7 +18,7 @@ _"Jump Rope"_ is a game where the player needs to click the mouse every time the
 
 ## Code commented:
 
-This code can also be found in the repository. Click [here](#Game stages) to skip this section.
+This code can also be found in the repository. Click [here](#Game_stages) to skip this section.
 
 ````
 /* 
