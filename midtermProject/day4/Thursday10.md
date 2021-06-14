@@ -6,10 +6,15 @@
 
 ## Tasks:
 
+·To start working in a different concept.
+·To give a desing to the videogame.
+·To study _Flappy Bird_'s code.
+
 ## Progress:
 
 ## Code commented:
 
+````
 //Images
   PImage background; 
   PImage player; 
@@ -99,8 +104,11 @@ void setBackground() {
     bX = 0;
   }
 }
+````
 
 ## Results:
+
+https://youtu.be/HzrptKuqBsU
 
 ## Modifications:
 
