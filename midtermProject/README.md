@@ -290,7 +290,7 @@ Some parts of the video can't be done with Processing, so I also used profesor A
 
 These resources allowed me to cast my project as I wanted to. Even though the playability is simple and it's something that already existed, I believe that the design and concept of "_UNBREAKABLE_" are attractive and I'm satisfied with the result. This project helped me exploit all I've been taught in three weeks. I'm looking forward to learn more about this programming language to make more complex videogames.
 
-If you're interested, you can read my [JOURNAL](journal.md) for this project.
+If you're interested, you can read my [journal](journal.md) for this project.
 
 
 ## Gameplay:
