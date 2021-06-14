@@ -6,7 +6,7 @@
 
 ## Tasks:
 
-·To learn more about collision detection on Processing.
+·To learn more about collision detection on Processing.  
 ·To look for alternative ideas for my project.
 
 ## Progress:
