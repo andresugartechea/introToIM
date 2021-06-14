@@ -2,7 +2,7 @@
 
 [← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day3/Wednesday09.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
-[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day5/Saturday12.md)  
+[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day6/Saturday12.md)  
 
 ## Tasks:
 
@@ -108,4 +108,4 @@ void setBackground() {
 
 [← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day3/Wednesday09.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
-[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day5/Friday11.md)  
+[next →](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day6/Saturday12.md)  
