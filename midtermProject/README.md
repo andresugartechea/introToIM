@@ -1,7 +1,6 @@
 
 
-The standard of documentation is higher than the homework assignments. Check your grades and if you didn't get 10 points you can make an appointment to discuss with me how you can improve
-README.md to include
+
 At least everything we have included up to now
 Clear instructions for playing the game
 Screen shots of different game stages
@@ -13,19 +12,11 @@ Very commented code, especially for any confusing or tricky parts
 
 # Intro to IM | 06/07/2021 - 06/14/2021  : midterm Project
  
+
+
 ·[JOURNAL](journal.md)
 
-## Intructions: Make a game using everything you have learned so far
-
-  ·The game can be for one or more players.  
-  ·The game must not be a shooting game (down with violence!).  
-  ·The game must include:  
-     - at least one shape.  
-     - at least one image.  
-     - at least one sound.  
-     - at least one on-screen text.  
-  ·The game must start with a screen giving instructions, and must wait there until a button or key (your choice) is pressed.  
-  ·After the game is won or lost, there must be a way to restart the game without closing and restarting the program.  
+## Intructions: 
 
 ## Project description:
 
