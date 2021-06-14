@@ -9,6 +9,7 @@ The playability is simple, but the game is not that easy. The purpose of this ga
 ## Intructions: 
 
 **1. Start the game** → Click the screen to start playing.
+
 <img src="stage1.png" width="800" />
 
 **2. Keep clicking to fly** → Your character will be placed in the middle of the screen. Keep clicking the mouse to stay in the middle of the screen until the first pair of fists arrive.
@@ -17,11 +18,11 @@ The playability is simple, but the game is not that easy. The purpose of this ga
 
 **3. Don't go out of the screen** → If you fall or fly too high, you will lose.
 
-**4. Don't touch the fists** → You need to stay in the gap between the pair of fists to be safe and earn points.
+**4. Don't touch the fists** → You need to stay in the gap between the pair of fists to be safe and score points.
 
 <img src="stage2.png" width="800" />
 
-**5. Keep playing!** → If you touch the fists, you will die, but you can click on the image in the lower right corner to start again.
+**5. Keep playing!** → If you touch the fists you will die, but you can click on the image in the lower right corner to start again.
 
 <img src="stage3.png" width="800" />
 
@@ -277,16 +278,16 @@ void finalScore() {
 ````
 ## Problems and modifications
 
-As I mentioned, this project started as a jump rope videogame. Nonetheless, the concept was pretty similar: with the original version, the player needed to click the mouse every time the rope approaches to avoid touching it. The rope was supposed to increase of speed every time the player scored a point, and the game ended when the ball touched the rope.
+As I mentioned, this project started as a jump rope videogame. Nonetheless, the concept was pretty similar: with the original version, the player needed to click the mouse every time the rope approaches to avoid touching it. The rope was supposed to increase of speed every time the player scored a point and the game ended when the ball touched the rope.
 
    <img src="concept.jpg" width="500" />
    
-Nonetheless, the collision detection for this idead turned out to be harder than I thought. That's why I had to research how [collision detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) works, specially for [rotated objects]. 
+Nonetheless, the collision detection for this idea turned out to be harder than I thought. That's why I had to research how [collision detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) works, specially for [rotated objects]. 
 
-The lack of time and my inexperience with programming made me change my concept and it became a new version of _"Flappy Bird"_, certainly because i was using 
+The lack of time and my inexperience with programming made me change my concept and it became a new version of _"Flappy Bird"_, certainly because I was using 
 [The Coding Train](https://www.youtube.com/watch?v=cXgA1d_E-jY&t=1026s&ab_channel=TheCodingTrainTheCodingTrainVerified)'s tutorial as reference for the jump rope game. 
 
-Some parts of the video can't be done with Processing, so I also used profesor Allen Toe's [_"Flappy Bird"_ tutorial on Processing](https://www.youtube.com/watch?v=IIrGAvlNckw&list=PLAE4MzuQm3Gwj2QLcqpepbTuIuzi_18mS) which uses all the functions that I've learned so far in my Intro to Interactive Media course. To deepen my knowledge about coding videogames on Processing, I also watched [John McCaffrey's tutorials]((https://www.youtube.com/watch?v=IIrGAvlNckw&list=PLAE4MzuQm3Gwj2QLcqpepbTuIuzi_18mS) to understand how game state system works. As well, his video on [how to work with sound](https://www.youtube.com/watch?v=I6fG1wneXWo&t=63s&ab_channel=JohnMcCaffreyJohnMcCaffrey) was really helpful for the creation of this project.
+Some parts of the video can't be done with Processing, so I also used profesor Allen Toe's [_"Flappy Bird"_ tutorial on Processing](https://www.youtube.com/watch?v=IIrGAvlNckw&list=PLAE4MzuQm3Gwj2QLcqpepbTuIuzi_18mS) which uses all the functions that I've learned so far in my Intro to Interactive Media course. To deepen my knowledge about coding videogames on Processing, I also watched [John McCaffrey's tutorials](https://www.youtube.com/watch?v=IIrGAvlNckw&list=PLAE4MzuQm3Gwj2QLcqpepbTuIuzi_18mS) to understand how game state system works. As well, his video on [how to work with sound](https://www.youtube.com/watch?v=I6fG1wneXWo&t=63s&ab_channel=JohnMcCaffreyJohnMcCaffrey) was really helpful for the creation of this project.
 
 These resources allowed me to cast my project as I wanted to. Even though the playability is simple and it's something that already existed, I believe that the design and concept of "_UNBREAKABLE_" are attractive and I'm satisfied with the result. This project helped me exploit all I've been taught in three weeks. I'm looking forward to learn more about this programming language to make more complex videogames.
 
