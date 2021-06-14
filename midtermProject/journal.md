@@ -26,6 +26,6 @@ _(Last modified: 06/14/2021)_
 
 ## Journal:
 
-Day [1](day1/Monday07.md),  [2](day2/Tuesday08.md),  [3](day3/Wednesday09.md),  [4](day5/Friday11.md),  [5](day6/Saturday12.md),  [6](day7/Sunday13.md)
+Day [1](day1/Monday07.md),  [2](day2/Tuesday08.md),  [3](day3/Wednesday09.md),  [4](day4/Thursday10.md),  [5](day6/Saturday12.md),  [6](day7/Sunday13.md)
 
 
