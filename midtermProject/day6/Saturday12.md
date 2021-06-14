@@ -6,10 +6,22 @@
 
 ## Tasks:
 
+·To add collision detection.
+·To add the start and end pages.
+
 ## Progress:
+
+Today, I created the start and eng pages of the videogame on Photoshop. I followed the same process as yesterday, scanning the drawings and erasing the background:
+
+<img src="startMenu.png" width="800" />
+
+<img src="loseGame.png" width="800" />
+
+I use the measures of the images of the playable character and the fists for the collision detection. I calculated everything really quick just to check if it was working, so tomorrow I'll make modifications and test in detail.
 
 ## Code commented:
 
+````
 //Images
   PImage background; 
   PImage player; 
@@ -174,13 +186,21 @@ void setBackground() {
   }
 }
 
+````
 
 ## Results:
-https://youtu.be/e2w7GS3xENM
+[This](https://youtu.be/e2w7GS3xENM) is how my project looks like today.
 
 ## Modifications:
 
+I didn't make any significant modification to the videogame's concept.
+
 ## Problems to solve:
+
+·To reset the game after dying.  
+·To improve the collision detection.  
+·To add sound.  
+·To add the final score to the end page.
 
 [← return](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/day4/Thursday10.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/midtermProject/journal.md)  
