@@ -5,7 +5,7 @@ Description of major problems and modifications you made to overcome them
 
 
 
-# Intro to IM | 06/07/2021 - 06/14/2021  : midterm Project
+# Intro to IM | Midterm Project: "UNBREAKABLE", videogame
  
 
 ## Intructions: 
