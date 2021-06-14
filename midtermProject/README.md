@@ -10,6 +10,22 @@ Description of major problems and modifications you made to overcome them
 
 ## Intructions: 
 
+**1. Start the game** → Click the screen to start playing.
+<img src="stage1.png" width="800" />
+
+**2. Keep clicking to fly** → Your character will be placed in the middle of the screen. Keep clicking the mouse to stay in the middle of the screen until the first pair of fists arrive.
+
+<img src="stage1a.png" width="800" />
+
+**3. Don't go out of the screen** → If you fall or fly too high, you will lose.
+
+**4. Don't touch the fists** → You need to stay in the gap between the pair of fists to be safe and earn points.
+
+<img src="stage2.png" width="800" />
+
+**5. Keep playing!** → If you touch the fists, you will die, but you can click on the image in the lower right corner to start again.
+
+<img src="stage3.png" width="800" />
 
 
 ## Project description:
@@ -18,7 +34,7 @@ _"Jump Rope"_ is a game where the player needs to click the mouse every time the
 
 ## Code commented:
 
-This code can also be found in the repository. Click [here](#Game-stages) to skip this section.
+This code can also be found in the repository. Click [here](#Gameplay) to skip this section.
 
 ````
 /* 
@@ -266,10 +282,8 @@ void finalScore() {
 }
 ````
 
-## Game stages:
-<img src="stage1.png" width="800" />
-<img src="stage2.png" width="800" />
-<img src="stage3.png" width="800" />
+## Gameplay:
+
 
 [Here](https://youtu.be/yphFfRWPMsw), you can find a gameplay.
 
