@@ -277,15 +277,22 @@ void finalScore() {
 ````
 ## Problems and modifications
 
-As I mentioned, this project started as a jump rope videogame. Nonetheless, the concept was pretty similar: with the original version, the player needed to click the mouse every time the rope approaches to avoid touching it. The rope was supposed to increase of speed every time the player scored a point, and the game ended when the ball touched the rope. Nonetheless, the collision detection for this idead turned out to be harder than I thought.
+As I mentioned, this project started as a jump rope videogame. Nonetheless, the concept was pretty similar: with the original version, the player needed to click the mouse every time the rope approaches to avoid touching it. The rope was supposed to increase of speed every time the player scored a point, and the game ended when the ball touched the rope.
 
-<img src="concept.jpg" width="400" />
+   <img src="concept.jpg" width="500" />
+   
+Nonetheless, the collision detection for this idead turned out to be harder than I thought. That's why I had to research how [collision detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) works, specially for [rotated objects]. 
+
+The lack of time and my inexperience with programming made me change my concept and it became a new version of _"Flappy Bird"_, certainly because i was using 
+[The Coding Train](https://www.youtube.com/watch?v=cXgA1d_E-jY&t=1026s&ab_channel=TheCodingTrainTheCodingTrainVerified)'s tutorial as reference for the jump rope game. 
+
+Some parts of the video can't be done with Processing, so I also used profesor Allen Toe's [_"Flappy Bird"_ tutorial on Processing](https://www.youtube.com/watch?v=IIrGAvlNckw&list=PLAE4MzuQm3Gwj2QLcqpepbTuIuzi_18mS) which uses all the functions that I've learned so far in my Intro to Interactive Media course. To deepen my knowledge about coding videogames on Processing, I also watched [John McCaffrey's tutorials]((https://www.youtube.com/watch?v=IIrGAvlNckw&list=PLAE4MzuQm3Gwj2QLcqpepbTuIuzi_18mS) to understand how game state system works. As well, his video on [how to work with sound](https://www.youtube.com/watch?v=I6fG1wneXWo&t=63s&ab_channel=JohnMcCaffreyJohnMcCaffrey) was really helpful for the creation of this project.
+
+These resources allowed me to cast my project as I wanted to. Even though the playability is simple and it's something that already existed, I believe that the design and concept of "_UNBREAKABLE_" are attractive and I'm satisfied with the result. This project helped me exploit all I've been taught in three weeks. I'm looking forward to learn more about this programming language to make more complex videogames.
+
+If you're interested, you can read my [JOURNAL](journal.md) for this project.
 
 
 ## Gameplay:
 
-[Here](https://youtu.be/yphFfRWPMsw), you can find a gameplay.
-
-## Journal:
-
-·[JOURNAL](journal.md)
+I hope my videogame is to your like. [Here](https://youtu.be/yphFfRWPMsw), you can find a gameplay.
