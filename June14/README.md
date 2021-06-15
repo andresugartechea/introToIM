@@ -17,7 +17,7 @@ The user can push the switches in 9 different ways _(Y : Yellow, R : Red, G : Gr
 YRG, RGY, GRY
 YGR, RYG, **GYR** (right combination)
 
-For each combination, I code how the lEDs would behave. Here's an example:
+For each combination, I wrote how the LEDs would behave. Here's an example:
 
 ````
 //YRG
