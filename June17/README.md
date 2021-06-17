@@ -10,6 +10,10 @@ This is the schematic of the circuit:
 
 <img src="schematic2.jpg" width="800" />
 
+This is the circuit built:
+
+<img src="circuit.jpg" width="800" />
+
 #### Code Commented:
 
 
