@@ -17,7 +17,7 @@ const int LED2 = 6;
 
 //sensors states
 int buttonState = 0;
-int LDRState = 0;
+int LDRvalue = 0;
 
 //LEDs states
 int  LED1State = 0;
@@ -35,25 +35,24 @@ void setup() {
 }
 
 
-/////ME QUEDÉ AQUÍ
 
 void loop() {
   
-  //sensors states
-  int buttonState = digitalRead(button);
-  int LDRvalue = analogRead(LDR);
-  //LEDs states
+  buttonState = digitalRead(button);
+  LDRvalue = analogRead(LDR);
   LED1State = digitalRead(LED1);
   LED2State = digitalRead(LED2);
 
 
   //instructions for the button
-  
+
+  //1. if button non-pressed, LEDs are on
   if (buttonState == LOW){
     digitalWrite(LED1, HIGH);
     digitalWrite(LED2, HIGH);
   }
   
+  //2. if buttton pressed, LEDs blink
   if (buttonState == HIGH){
     digitalWrite(LED1, LOW);
     digitalWrite(LED2, HIGH);
@@ -67,11 +66,13 @@ void loop() {
 
   //instructions for the LDR
 
+  //1. if normal light, LEDs are on (interval set after testing AnalogReadSerial)
   if (LDRvalue >= 960 && LDRvalue <=970){
     digitalWrite(LED1, HIGH);
     digitalWrite(LED2, HIGH);
   }
   
+  //2. if shadow, LEDs fade slowly
   if (LDRvalue < 960){
     for (int fadeValue = 0 ; fadeValue <= 255; fadeValue += 5) {
       analogWrite(LED1, fadeValue);
@@ -85,6 +86,7 @@ void loop() {
     }
   }
 
+  //3. if more light (flashlight), LEDs fade fast
   if (LDRvalue > 970){
     for (int fadeValue = 0 ; fadeValue <= 255; fadeValue += 5) {
       analogWrite(LED1, fadeValue);
