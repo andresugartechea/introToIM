@@ -3,23 +3,17 @@
 
 ## Making an instrument
 
-The instructions for this assignment were to _"get information from at least one analog sensor and at least one digital sensor (switch), and use this information to control at least two LEDs, one in a digital fashion and the other in an analog fashion, in some creative way."_
+The instructions for this assignment were to make a musical instrument using at least one digital sensor and one analog sensor. I chose to use a switch and an ultrasonic distance sensor.
 
-#### Schematic and circuit:
+For the concept, I wanted to create an intrument that plays all the notes in the C major scale which is the most common one. The principle is to play the instrument placing a hand in front of the sensor. The note played changes according to the distance and the switch changes the notes in the scale.
 
-We saw in class that we could make the LEDs fade with an analog sensor (LDR), and I liked when we made them blink using a _delay()_. So for this project I wanted to mixed both examples to practice.
-
-For the concept, I wanted the LEDs to behave in 4 different ways depending on the conditions:
-- 1. With normal light, if the button is not being pressed, the LEDs are on.
-- 2. With normal light, if the button is being pressed, the LEDs blink.
-- 3. Without the button being pressed, with faint light, the LEDs fade slowly. (The user can place their hand above the LDR)
-- 4. Without the button being pressed, with extra light, the LEDs fade fast. (The user can use a flashlight)
+For this code, I used as reference the example given by my professor in the [_SparkFun Inventor's Kit Experiment Guide_](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-3b-distance-sensor). It was very useful to understand how an ultrasonic distance sensor works, especially being my first time working with one.
 
 #### Schematic and circuit:
 
 This is the schematic of the circuit:
 
-<img src="schematic2.jpg" width="800" />
+<img src="schematic.png" width="800" />
 
 This is the circuit built:
 
@@ -27,20 +21,39 @@ This is the circuit built:
 
 #### Problems and results:
 
-I needed to define an interval of values for the LDR, for when the user is not manipulating none of the sensors. For this, I used the _AnalogReadSerial_ example that is on Arduino. 
+I wanted to have the 8 notes of the C major scale in my instrument, but I didn't want the user to have trouble playing them, due that the ultrasonic distance sensor is not that precise. That's why I decided to divide the scale in two. 
 
-<img src="testing.png" width="800" />
-
-After trying different lightning conditions, I chose these values and worked really well. The LDR was tested in my dorm, with the blinds opened and at 9am, so I probably would have to change these values to make it work in a different place.
+If the switch is not pressed, the user can play the first 4 notes in the scale:
 
 ````
-  //1. if normal light, LEDs are on (interval set after testing AnalogReadSerial)
-  if (LDRvalue >= 960 && LDRvalue <=970){
-    digitalWrite(LED1, HIGH);
-    digitalWrite(LED2, HIGH);
+  if ((buttonState == LOW)&&(distance <= 3)) {
+    tone(8, NOTE_C5);
+  } else if ((buttonState == LOW)&&(3 < distance && distance < 6)) { //if the object is a medium distance
+    tone(8, NOTE_D5);
+  } else if ((buttonState == LOW)&&(6 < distance && distance < 9)) { //if the object is a medium distance
+    tone(8, NOTE_E5);
+  } else if ((buttonState == LOW)&&(9 < distance && distance < 12)) { //if the object is a medium distance
+    tone(8, NOTE_F5);
+  } else if ((buttonState == LOW)&&(12 <= distance)) { //if the object is a medium distance
+    noTone(8);          //nothing sounds when the hand isn't placed in front of the sensor
   }
+````
+The next 4 notes can be played when the button is pressed:
+````
+  
+  //BUTTON PRESSED: G, A, B, and C can  be played
+  if ((buttonState == HIGH)&&(distance <= 3)) {
+    tone(8, NOTE_G5);
+  } else if ((buttonState == HIGH)&&(3 < distance && distance < 6)) { //if the object is a medium distance
+    tone(8, NOTE_A5);
+  } else if ((buttonState == HIGH)&&(6 < distance && distance < 9)) { //if the object is a medium distance
+    tone(8, NOTE_B5);
+  } else if ((buttonState == HIGH)&&(9 < distance && distance < 12)) { //if the object is a medium distance
+    tone(8, NOTE_C6);
+  }
+
 ````
 
 ### Final result:
 
-[Click here to see how this program works.](https://youtu.be/BTft7RbqRRs) 
+[Click here to see how the instrument works](https://youtu.be/9-U5cu0vJUw) 
