@@ -1,7 +1,9 @@
 # Intro to IM |  -   : final Project
  
 
-## Intructions: Your final project must incorporate at least 4 of the following items from Arduino and at least 4 of the following items from Processing, and some form of communication between the two. 
+## Intructions: 
+
+Your final project must incorporate at least 4 of the following items from Arduino and at least 4 of the following items from Processing, and some form of communication between the two. 
 
 ·In Arduino, we learned about:
     Analog Input
