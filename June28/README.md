@@ -11,7 +11,7 @@ This is the schematic of the circuit:
 
 This is the circuit built:
 
-<img src="circuitJune21.jpeg" width="800" />
+<img src="circuit.jpg" width="600" />
 
 #### Problems and results:
 
