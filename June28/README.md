@@ -17,7 +17,14 @@ This is the circuit built:
 
 <img src="circuit.jpg" width="600" />
 
+
 #### Problems and results:
+
+Before starting coding the puzzle, I first wanted to make sure that I could control the LEDs from Processing. This is the code that I used at the beginning:
+
+<img src="one.png" width="1200" />
+
+I had success at communicating from Processing to Arduino to turn on each one of the LEDs, making the buttons appearing on screen clickable. However, I couldn't figure out how to communicate back from Arduino to Processing. My idea was to make pop up a "End game" screen when the puzzle was resolved and for that I needed more practice with serial communication. I tried with different codes, but none of them gave results. I leave this one as example:
 
 On Arduino:
 ````
@@ -33,6 +40,7 @@ On Processing:
     background(255);
   }
 ````
+I plan on learning how to create this type of communication with my final project, which requires a similar interaction.
 
 ### Final result:
 
