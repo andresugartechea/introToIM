@@ -1,5 +1,6 @@
 # Intro to IM |  -   : final Project
  
+https://youtu.be/ON3mrvRLmeY
 
 ## Intructions: 
 
@@ -32,7 +33,6 @@ For my final project I want to recreate the game _"Bob It"_ using sensors. I'll 
 <img src="concept.jpg" width="800" />
 
 I'm not sure if this idea is feasible, but for making the task easy I want to use these four sensors which I already know how to incorporate in circuits and coding. I plan on using Processing for the game instructions. The screen will indicate the user what to do and how to use the sensors.
-
 
 
 
