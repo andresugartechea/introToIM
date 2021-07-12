@@ -14,9 +14,9 @@ Today, I finished drawing and coloring the painting on Processing.
 
 <img src="Day4.png" width="900" />
 
-I started giving functionalities to each one of the sensors. So far:
-    - the potentiometer makes rotate the figures and changes the their color from black and white to their original hue.
-    - the SPDT displays the image of the woman on screen.
+I started giving functionalities to each one of the sensors. So far:  
+    - the potentiometer makes rotate the figures and changes the their color from black and white to their original hue.  
+    - the SPDT displays the image of the woman on screen.  
 
 _(I forgot to record this part of the project, but these fonctionalities are kept in the final product)_
 
