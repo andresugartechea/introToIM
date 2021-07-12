@@ -2,7 +2,8 @@
 
 ## Project description:
 
-_"Sad shower in New York"_ is an artwork from my portfolio recreated on raster graphic editors and Processing to add interaction with Arduino using sensors.   
+"Sad shower in New York" is an interactive painting working with sensors on Arduino, and reproduced and drawn on Processing. The serial communication between these
+two software allows the user to be participant of the making of this melancholic piece.   
 <img src="recreation.png" height ="700" />
 
 The concept was inspired by the combination of two paintings of my choice: _"Sad shower in New York"_ by Tracey Emin (left), and _"Composition"_ by Sophie Taeuber-Arp (right).
@@ -24,7 +25,8 @@ The process is explained in more detail in my [journal](https://github.com/andre
    
 As an Arduino and Processing beginner, I struggled understanding how the serial communication between these softwares works. I learned a lot with this project and coding doesn't seem intimidating to me anymore. Some (now simple) problems that I faced were:
 - building my circuit on a large breadboard from scratch (mainly because I forgot that their power rails are divided in two, unlike the small ones).
-- communicating the values captured by the sensors to Processing (this was caused by a syntax error, which taught me to be more cautious with my coding).
+- communicating the values captured by the sensors to Processing (this was caused by a syntax error, which taught me to be more cautious with my coding).  
+- working with the LDR values, due that they change depending on the lightning conditions.
 After this, continuing with my project was easier and faster.
 
 
