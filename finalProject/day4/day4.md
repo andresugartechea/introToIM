@@ -1,4 +1,4 @@
-## Day 4 | Monday - : final Project
+## Day 4 | Wednesday 07/07/2021 : final Project
   
 [← return](https://github.com/andresugartechea/introToIM/blob/main/finalProject/day3/day3.md)  
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/finalProject/journal.md)  
