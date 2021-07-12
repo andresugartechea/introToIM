@@ -1,7 +1,7 @@
 ## Day 1 | Sunday 07/04/2021 : midterm Project
 
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/finalProject/journal.md)  
-[next →](https://github.com/andresugartechea/introToIM/edit/main/finalProject/day2/day2.md) 
+[next →](https://github.com/andresugartechea/introToIM/blob/main/finalProject/day2/day2.md) 
 
 ## Tasks:
 
@@ -41,5 +41,5 @@ I built the circuit successfully, so tomorrow I can start working on the serial 
 
 I'm not fully content with the concept because the final product doesn't seem attractive in my mind, so I might change of idea tomorrow.
 
-[MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/finalproject/journal.md)  
-[next →](https://github.com/andresugartechea/introToIM/edit/main/finalProject/day2/day2.md) 
+[MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/finalProject/journal.md)  
+[next →](https://github.com/andresugartechea/introToIM/blob/main/finalProject/day2/day2.md)
