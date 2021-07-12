@@ -5,9 +5,9 @@
 
 ## Tasks:
 
-·Work on the project's concept.
-·Look for similar ideas on the internet.
-·Draw the schematic and build the circuit
+·Work on the project's concept.  
+·Look for similar ideas on the internet.  
+·Draw the schematic and build the circuit.
 
 ## Progress:
 
