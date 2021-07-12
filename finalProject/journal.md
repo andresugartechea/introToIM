@@ -18,6 +18,7 @@ Your final project must incorporate at least 4 of the following items from Ardui
    - DC motor  
    - LCD  
    - Ultrasonic distance measuring sensor  
+   
 ·In Processing:
    - Drawing with primitives  
    - Transformations  
