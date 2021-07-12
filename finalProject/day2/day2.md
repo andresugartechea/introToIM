@@ -12,7 +12,7 @@
 
 ## Progress:
 
-I tried to come up with a different idea for my project today, but I was not sure about how to use the sensors with serial communication. For this reason, I decided to repeat [the example](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/arduinoSketches/serialExamples/basicArduinoToProcessing/basicArduinoToProcessing.ino) seen in my Introduction to IM class to discover how to work with each sensor.
+I tried to come up with a different idea for my project today, but I was not sure about how to use the sensors with serial communication. For this reason, I decided to study [the example](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/arduinoSketches/serialExamples/basicArduinoToProcessing/basicArduinoToProcessing.ino) seen in my Introduction to IM class to discover how to work with each sensor.
 
 As in the example, I seeked to control a figure on Processing with the sensors: a LDR makes vary the color of the figure, a potentiometer moves the figure up and down, a SPDT swith changes the shape of the figure, and a button switch increases the stroke weight.
 
