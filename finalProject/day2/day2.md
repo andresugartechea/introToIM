@@ -7,7 +7,7 @@
 
 ## Tasks:
 
-·Develop a new concept.
+·Develop a new concept.  
 ·Start implementing serial communication between Arduino and Processing.
 
 ## Progress:
