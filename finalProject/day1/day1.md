@@ -1,4 +1,4 @@
-## Day 1 | Monday 06/07/2021 : midterm Project
+## Day 1 | Sunday 07/04/2021 : midterm Project
 
 [MAIN PAGE](https://github.com/andresugartechea/introToIM/blob/main/finalProject/journal.md)  
 [next →](https://github.com/andresugartechea/introToIM/edit/main/finalProject/day2/day2.md) 
@@ -17,7 +17,7 @@ I made these drawings to start thinking about how to use at least 4 sensors as d
 
 <img src="concept.jpg" width="400" />
 
-While drawing the schematic, I considered also incorporation two LEDs and a speaker and figure out how to add them to the concept later.
+While drawing the schematic, I considered also incorporation two LEDs and a speaker and to figure out later how to add them to the concept.
 
 <img src="schematic.jpeg" width="400" />
 
@@ -27,7 +27,7 @@ Then, I started building the circuit. This is how it looks:
 
 ## Code commented:
 
-I used the example code on Arduino to test each digital an analog sensor, as well as the LEDs and the speaker.
+I used the example code on Arduino to test each digital and analog sensor, as well as the LEDs and the speaker.
 
 <img src="testAnalog.png" width="800" />
 
