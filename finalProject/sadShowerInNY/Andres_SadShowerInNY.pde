@@ -1,40 +1,58 @@
-//communication with Arduino
-import processing.serial.*;       //library for communicating with Arduino
+/* 
+
+ name: Andres Ugartechea
+ assignment: final project
+ date: 07/11/2021
+
+"Sad shower in New York" is an interactive painting working with sensors on Arduino, and reproduced and drawn on Processing. The serial communication between these
+two software allows the user to be participant of the making of this melancholic piece. 
+
+The program was tested in a room with good illumination. Processing prints all the values detected by the sensors; in the case of the LDR, is the first one
+detected from left to right. To make sure that the program works correctly, please WRITE the higher value that the LDR can detect 
+in the place where you are after "int maxLight = " (REPLACE the default value on Processing). Then, cover the LDR and WRITE the value
+detected  after "int minLight = " (REPLACE the default value as well).
+
+
+ */
+ 
+ 
+ 
+///////////////
+
+//light detected
+int maxLight = 950;
+int minLight = 780;
+
+//library for serial communication with Arduino
+import processing.serial.*;
 Serial myPort;
 
-
-
-//Sound: https://www.youtube.com/watch?v=69IuP6uOmRA&ab_channel=MeriEngel
+//library for adding sound
 import processing.sound.*;
 SoundFile showerSound;
 SoundFile cryingSound;
 
-//Images
+//images
 PImage sad;
 PImage woman;
 PImage water;
 PImage shower;
 
 //variables for sensors
-int LDRtext = 0;
-int LDRangle = 0;
-int potTransparency = 0;
-int potColor = 0;
-int potAngle = 0;
-float potSound = 0;
-int slideSwitch = 0;
-int buttonSound = 0;
-int buttonColor = 0;
+int LDRtext = 0;                //LDR sensor: displays text
+int LDRangle = 0;               //rotation angle of each letter from the text
+int potTransparency = 0;        //(pot) potentiometer: changes de transparency of "water.png"
+int potColor = 0;               //changes de color of each figure
+int potAngle = 0;               //rotation angle of each figure
+float potSound = 0;             //changes amplitude of "showerSound.mp3"
+int slideSwitch = 0;            //SPDT switch: displays "woman.png"
+int buttonSound = 0;            //button switch: plays "crying.wav" if pressed
+//int buttonColor = 0;
 
-
-//Light detected
-int maxLight = 950;
-int minLight = 780;
-
-
+///////////////
 
 void setup() {
-  size (800, 800);
+  size (800, 800);              //same size as original image to keep the same quality    
   background(255);
 
   //load images
@@ -50,27 +68,26 @@ void setup() {
 
   //available serial ports
   printArray(Serial.list());
-  //choose the correct port
-  String portname=Serial.list()[2];
+  String portname=Serial.list()[2];                      //SELECT the correct port
   println(portname);
   myPort = new Serial(this, portname, 9600);
   myPort.clear();
   myPort.bufferUntil('\n');
 
-  //el volumen sube o baja dependiendo del potenciómetro
+  //play all sounds available (the sensors control de amplitude of each one)
   showerSound.loop();
   cryingSound.loop();
+  
 }
 
-
-
+///////////////
 
 void draw() {
 
   background(255);
   tint(255);
 
-  //figuras geométricas
+  //display all figures and "shower.png"
   thing2();
   trapezoid();
   thing1();
@@ -81,62 +98,63 @@ void draw() {
   lines();
 
 
-  //agua transparencia
+  //displays "water.png" with a transparency that varies according to the potentiometer position
   tint(255, 255, 255, potTransparency);
   image(water, 95, -150);
 
+  //displays "woman.png" when the SPDT is switched
   if (slideSwitch == 1) {
     tint(255);
     image(woman, 70, -35);
   }
 
+  //displays the text when the LDR is covered
   if (LDRtext <=85) {
     texto();
   }
-
-
+  
+  //links the amplitude of the sounds to the position of the potentiometer and button switch respectively
   showerSound.amp(potSound);
   cryingSound.amp(buttonSound);
 }
 
-
-
-
-
+///////////////
 
 void serialEvent (Serial myPort) {
 
-  // get the ASCII string:
+  // "get the ASCII string:" 
   String s = myPort.readStringUntil('\n');
-  // trim off any whitespace:
+  // "trim off any whitespace:"
   s = trim(s);
 
-  // Always check to make sure the string isn't empty
+  // "Always check to make sure the string isn't empty"
   if (s != null) {
     println(s);
     int values[]= int(split(s, ','));
 
     if (values.length==4) {
-      LDRtext = (int)map(values[0], minLight, maxLight, 0, 100);   //los valores cambian dependiendo de la hora)
-      LDRangle = (int)map(values[0], minLight, maxLight, 0, 20);
+      LDRtext = (int)map(values[0], minLight, maxLight, 0, 100);   //minLight' and 'maxLight' change according to the lightning conditions
+      LDRangle = (int)map(values[0], minLight, maxLight, 0, 20); 
 
       potTransparency = (int)map(values[1], 0, 1023, 0, 255); 
-      potColor = (int)map(values[1], 0, 1023, 100, 255);
-      potAngle = (int)map(values[1], 0, 1023, 0, 360);  
-      potSound = map(values[1], 0, 1023, 0, 1); 
+      potColor = (int)map(values[1], 0, 1023, 100, 255); 
+      potAngle = (int)map(values[1], 0, 1023, 0, 360);             //max value = 360, because is a rotation in degrees
+      potSound = map(values[1], 0, 1023, 0, 1);                    //max value = 1, because is an amplitude
 
-      slideSwitch = values[2];
+      slideSwitch = values[2];                                     //it only has 0 and 1 as values
 
       buttonSound = values[3];
-      buttonColor = (int)map(values[3], 0, 1, 0, 255);
+      //buttonColor = (int)map(values[3], 0, 1, 0, 255);          (not used anymore)
     }
   }
 
-  //println(LDRtext);
+  //println(LDRtext);                                              (used to check if each variable was working correctly)
 
-  // Tell Arduino we're ready for another
-  myPort.write(1 + "\n"); // could be any value
+  // "Tell Arduino we're ready for another"
+  myPort.write(1 + "\n"); // "could be any value"
 }
+
+///////////////
 
 void lines() {
   stroke(0);
@@ -145,8 +163,10 @@ void lines() {
   line(0, 518, 576, 510);
   line(378, 319, 365, 798);
 
+  //same case for all the figures: the values change according to the potentiometer position. The values that are substracted to
+  //'potColor' were calculated with (255 - orginal RGB value in the image).
   fill(potColor-97, potColor-83, potColor-132, potColor);
-  //éstas sí van pegadas PEGAR!
+  
   beginShape();
   vertex(103, 743);
   vertex(99, 516);
@@ -167,20 +187,19 @@ void lines() {
   endShape();
 }
 
+///////////////
 
-
-//gira el triángulo con el potenciómetro
 void Triangle() {
   push();
   translate(507, 800);
-  rotate(radians(potAngle-360));
+  rotate(radians(potAngle-360));                                    //this makes rotate the figure depending on the potentiometer position
   fill (potColor, potColor-191, potColor-236, potColor);
   noStroke();
   triangle(66, -269, -138, -148, 0, 0);
   pop();
 }
 
-
+///////////////
 
 void bigCircle() {
   push();
@@ -192,6 +211,8 @@ void bigCircle() {
   pop();
 }
 
+///////////////
+
 void quarter() {
   push();
   translate(368, 800);
@@ -202,11 +223,15 @@ void quarter() {
   pop();
 }
 
+///////////////
+
 void thing1() {
   fill(0, potColor-68, potColor-123, potColor);
   noStroke();
   arc(152, 623, 220, 302, radians(315), radians(361));
 }
+
+///////////////
 
 void thing2() {
   fill(0, potColor-68, potColor-123, potColor);
@@ -214,6 +239,7 @@ void thing2() {
   quad(228, 515, 104, 517, 106, 622, 228, 624);
 }
 
+///////////////
 
 void trapezoid() {
   push();
@@ -225,6 +251,8 @@ void trapezoid() {
   pop();
 }
 
+///////////////
+
 void texto() {
 
   fill(0, 130);
@@ -234,7 +262,7 @@ void texto() {
   //text("it's", 567, 247);
   push();
   translate(567, 247);
-  rotate(radians(-LDRangle));
+  rotate(radians(-LDRangle));          //each letter rotates slightly 
   text("i", 0, 0);
   pop();
 
