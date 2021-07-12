@@ -20,7 +20,7 @@ I knew the painting of the woman showering would be difficult to draw on Process
 
 ## Code commented: 
 
-For this part of my project, I asked Processing to print the coordinates of the mouse when is clicked. Then, I put the original imaged on the background with the same size as the canvas, so I could click on it and know the coordinates of each vertex of the figures.
+For this part of my project, I asked Processing to print the coordinates of the mouse when is clicked. Then, I put the original image on the background with the same size as the canvas, so I could click on it and know the coordinates of each vertex of the figures.
 
 ````
 PImage sad;
